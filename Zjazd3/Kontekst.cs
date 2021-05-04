@@ -12,7 +12,7 @@ namespace Zjazd3
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Data Source = PC-DOM; Initial Catalog = Test; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False");
+                "...");
             base.OnConfiguring(optionsBuilder);
         }
     }
